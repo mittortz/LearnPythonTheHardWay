@@ -12,8 +12,9 @@ def rewind(f):
 
 # defines function to print a single line from the file, starting wherever
 # the reading position is
+# added comma to end of readline function to prevent adding newline character
 def print_a_line(line_count, f):
-    print line_count, f.readline()
+    print line_count, f.readline(),
 
 # declares file object (DVD player) for the file
 current_file = open(input_file)
