@@ -14,11 +14,13 @@ print "Here's your file %r:" % filename
 print txt.read()
 
 # prompts user to enter filename again
-print "Type the filename again:"
-file_again = raw_input("> ")
+# print "Type the filename again:"
+# file_again = raw_input("> ")
 
 # assigns new variable name to 'open' function for new filename
-txt_again = open(file_again)
+# txt_again = open(file_again)
 
 # reads file again using new variable and prints contents
-print txt_again.read()
+# print txt_again.read()
+
+txt.close()
