@@ -20,3 +20,5 @@ print stuff[-1] # whoa! fancy
 print stuff.pop()
 print ' '.join(stuff) # what? cool!
 print '#'.join(stuff[3:5]) # super stellar!
+print stuff
+print ' '.join(stuff[3:6])
